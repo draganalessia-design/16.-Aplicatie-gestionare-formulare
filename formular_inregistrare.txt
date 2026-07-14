@@ -1,0 +1,38 @@
+titlu: Formular de inregistrare
+tabel: inregistrari
+
+camp: nume
+eticheta: Nume complet
+tip: text
+obligatoriu: da
+
+camp: email
+eticheta: Adresa de email
+tip: email
+obligatoriu: da
+
+camp: varsta
+eticheta: Varsta
+tip: numar
+obligatoriu: nu
+
+camp: data_nastere
+eticheta: Data nasterii
+tip: data
+obligatoriu: nu
+
+camp: gen
+eticheta: Gen
+tip: select
+optiuni: Masculin,Feminin,Prefer sa nu spun
+obligatoriu: da
+
+camp: mesaj
+eticheta: Mesaj / observatii
+tip: textarea
+obligatoriu: nu
+
+camp: acord
+eticheta: Sunt de acord cu prelucrarea datelor
+tip: checkbox
+obligatoriu: da

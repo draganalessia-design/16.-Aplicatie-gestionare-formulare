@@ -1,0 +1,33 @@
+titlu: Sondaj de satisfactie
+tabel: raspunsuri_sondaj
+
+camp: nume
+eticheta: Nume (optional)
+tip: text
+obligatoriu: nu
+
+camp: varsta
+eticheta: Varsta
+tip: numar
+obligatoriu: nu
+
+camp: nota_generala
+eticheta: Nota generala (1-10)
+tip: numar
+obligatoriu: da
+
+camp: recomanda
+eticheta: Ai recomanda serviciul nostru unui prieten
+tip: select
+optiuni: Da,Nu,Nu stiu
+obligatoriu: da
+
+camp: abonare_newsletter
+eticheta: Doresc sa primesc newsletter
+tip: checkbox
+obligatoriu: nu
+
+camp: comentarii
+eticheta: Comentarii suplimentare
+tip: textarea
+obligatoriu: nu
