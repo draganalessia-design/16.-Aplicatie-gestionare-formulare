@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<title>Formular de inregistrare</title>
+<style>
+body { font-family: Arial, sans-serif; background:#f4f6f8; margin:0; padding:40px 0; }
+.card { max-width:600px; margin:0 auto; background:#fff; padding:30px 40px;
+        border-radius:10px; box-shadow:0 2px 10px rgba(0,0,0,0.08); }
+h1 { font-size:22px; color:#222; margin-bottom:25px; }
+label { display:block; margin-top:16px; font-weight:bold; color:#333; font-size:14px; }
+input, select, textarea {
+    width:100%; padding:8px 10px; margin-top:6px; border:1px solid #ccc;
+    border-radius:6px; font-size:14px; box-sizing:border-box;
+}
+textarea { min-height:80px; }
+.checkbox-row { margin-top:16px; display:flex; align-items:center; gap:8px; }
+.checkbox-row label { margin:0; }
+button { margin-top:26px; padding:10px 22px; background:#2563eb; color:#fff;
+         border:none; border-radius:6px; font-size:15px; cursor:pointer; }
+.req { color:#dc2626; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <h1>Formular de inregistrare</h1>
+    <form>
+      <label>Nume complet <span class="req">*</span></label><input type="text" name="nume" required><label>Adresa de email <span class="req">*</span></label><input type="email" name="email" required><label>Varsta</label><input type="number" name="varsta"><label>Data nasterii</label><input type="date" name="data_nastere"><label>Gen <span class="req">*</span></label><select name="gen" required><option value="Masculin">Masculin</option><option value="Feminin">Feminin</option><option value="Prefer sa nu spun">Prefer sa nu spun</option></select><label>Mesaj / observatii</label><textarea name="mesaj"></textarea><div class="checkbox-row"><input type="checkbox" name="acord" value="1"><label>Sunt de acord cu prelucrarea datelor <span class="req">*</span></label></div>
+      <button type="submit">Trimite</button>
+    </form>
+  </div>
+</body>
+</html>
