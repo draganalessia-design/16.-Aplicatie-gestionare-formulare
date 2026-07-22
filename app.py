@@ -56,7 +56,7 @@ def parseaza_formular(cale_fisier):
 
 
 if len(sys.argv) < 2:
-    print("Utilizare: python app.py <fisier_formular.txt>")
+    print("Utilizare: python3 app.py <fisier_formular.txt>")
     sys.exit(1)
 
 CALE_SPEC = sys.argv[1]
